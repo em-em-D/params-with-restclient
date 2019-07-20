@@ -15,8 +15,12 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 gem 'duktape'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
+gem  'autoprefixer-rails'
+gem 'sprockets'
+gem 'bootstrap-sass', '~> 3.3.6'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -53,5 +57,7 @@ group :test do
   gem 'chromedriver-helper'
 end
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gemcd
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'execjs' 
+
